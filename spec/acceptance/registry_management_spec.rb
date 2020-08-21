@@ -1,6 +1,6 @@
 require 'spec_helper_acceptance'
 
-describe 'Registry Management' do
+describe 'Registry Management', :integration do
   before(:all) do
     # use this unique keyname and keypath for all tests
     @keyname = "PuppetLabsTest_#{random_string(8)}"

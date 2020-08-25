@@ -2,7 +2,7 @@
 name: "puppet7nightly"
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 8 * * *'
 
 jobs:
   AcceptanceAndSpecTests:
